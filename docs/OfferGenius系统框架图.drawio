@@ -1,0 +1,108 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="motF4b5eRJW54bsaWBR8">
+    <mxGraphModel dx="851" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Streamlit UI层（前端）" vertex="1">
+          <mxGeometry height="80" width="454" x="185" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="简历上传/岗位选择" vertex="1">
+          <mxGeometry height="40" width="120" x="199" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="诊断结果展示" vertex="1">
+          <mxGeometry height="40" width="120" x="349" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="面试对话界面" vertex="1">
+          <mxGeometry height="40" width="120" x="499" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1" value="业务逻辑层（后端引擎）" vertex="1">
+          <mxGeometry height="80" width="563" x="130" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="简历诊断引擎" vertex="1">
+          <mxGeometry height="40" width="120" x="144" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="面试题生成器" vertex="1">
+          <mxGeometry height="40" width="120" x="283" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="答案评估器" vertex="1">
+          <mxGeometry height="37.5" width="120" x="423" y="378.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="会话管理器" vertex="1">
+          <mxGeometry height="40" width="120" x="564" y="377.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="AI 服务层" vertex="1">
+          <mxGeometry height="70" width="230" x="119" y="532.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="LLMMClient（DeepSeek）" vertex="1">
+          <mxGeometry height="42.5" width="146" x="161" y="546.25" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="数据持久层" vertex="1">
+          <mxGeometry height="70" width="210" x="499" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="session.json（未来-&amp;gt;SQLite）" vertex="1">
+          <mxGeometry height="45" width="180" x="514" y="552.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;entryX=0.488;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;strokeColor=light-dark(#3399FF,#EDEDED);" target="hdTY45Q9Luxzp83JR1Tn-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="408" y="280" as="sourcePoint" />
+            <mxPoint x="458" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-17" connectable="0" parent="hdTY45Q9Luxzp83JR1Tn-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="函数调用" vertex="1">
+          <mxGeometry relative="1" x="-0.4322" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.339;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#9999FF;" target="hdTY45Q9Luxzp83JR1Tn-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="198" y="420" as="sourcePoint" />
+            <mxPoint x="248" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-19" connectable="0" parent="hdTY45Q9Luxzp83JR1Tn-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="需要AI时调用" vertex="1">
+          <mxGeometry relative="1" x="0.1447" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFCCCC;" target="hdTY45Q9Luxzp83JR1Tn-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="198" y="420" as="sourcePoint" />
+            <mxPoint x="248" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-21" connectable="0" parent="hdTY45Q9Luxzp83JR1Tn-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="保存诊断结果" vertex="1">
+          <mxGeometry relative="1" x="0.0514" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#9999FF;" target="hdTY45Q9Luxzp83JR1Tn-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="338" y="420" as="sourcePoint" />
+            <mxPoint x="388" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#9999FF;" target="hdTY45Q9Luxzp83JR1Tn-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="478" y="420" as="sourcePoint" />
+            <mxPoint x="528" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.83;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFCCCC;" target="hdTY45Q9Luxzp83JR1Tn-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="618" y="420" as="sourcePoint" />
+            <mxPoint x="668" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-28" connectable="0" parent="hdTY45Q9Luxzp83JR1Tn-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="读写会话" vertex="1">
+          <mxGeometry relative="1" x="-0.0296" y="4" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdTY45Q9Luxzp83JR1Tn-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1;fontSize=15;" value="OfferGenius系统架构图" vertex="1">
+          <mxGeometry height="70" width="201.5" x="310.75" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
